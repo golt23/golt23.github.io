@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Indie Old‑School Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f8f8f8;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 30px 0;
+    }
+    nav {
+      background: #333;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Indie Old‑School Blog</h1>
+    <p>A cosy place for thoughts, music, and esoteric stuff.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="services.html">Services</a>
+  </nav>
+
+  <main>
+    <h2>Blog</h2>
+  
+    <div class="blog-list">
+      <article class="blog-item">
+        <a href="posts/post1.html">
+          <img src="images/post1.jpg" alt="Post 1 thumbnail" width="300">
+        </a>
+        <h3><a href="posts/post1.html">How I Made My First Old‑School Blog</a></h3>
+        <span class="category">Web dev</span>
+        <p>Short snippet about the post...</p>
+      </article>
+  
+      <article class="blog-item">
+        <a href="posts/post2.html">
+          <img src="images/post2.jpg" alt="Post 2 thumbnail" width="300">
+        </a>
+        <h3><a href="posts/post2.html">Music Production Workflow</a></h3>
+        <span class="category">Music</span>
+        <p>Short snippet about the post...</p>
+      </article>
+    </div>
+  
+    <style>
+      .blog-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 20px;
+      }
+      .blog-item {
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+      }
+      .blog-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 6px;
+      }
+      .category {
+        display: inline-block;
+        font-size: 0.85em;
+        background: #efe5ff;
+        color: #4c1d95;
+        padding: 3px 8px;
+        border-radius: 4px;
+      }
+    </style>
+  </main>
+  
+
+  <footer>
+    &copy; 2026 Your Name
+  </footer>
+</body>
+</html>
