@@ -12,39 +12,25 @@
       background: #f8f8f8;
       color: #333;
     }
-    header {
-      text-align: center;
-      padding: 30px 0;
-    }
-    nav {
-      background: #333;
-      padding: 10px 0;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-size: 1.1em;
-    }
-    main {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 20px 0;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #777;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>VOID Initiation</h1>
-    <p>More than 8 years of expirience in spirituality and community building. Grounded approach to all spiritual and esoteric, shedding light onto the mysterious and often stygmatized world of occult, magick, spirituality and esoterics.</p>
-  </header>
+    <header class="profile-header">
+  <!-- Background banner -->
+  <img src="images/header-bg.jpg" alt="Profile header" class="header-bg">
+
+  <!-- Overlay content (name, bio, PFP) -->
+  <div class="header-overlay">
+    <img src="images/pfp.jpg" alt="Your pfp" class="pfp">
+    <div class="profile-info">
+      <h1>Your Name</h1>
+      <p class="bio">Music producer, astro‑nerd, self‑learnt dev. Learning maths, music, and systems.</p>
+
+      <!-- Social or links -->
+      <div class="profile-links">
+        <a href="https://github.com/your-username">GitHub</a> •
+        <a href="https://mastodon.social/@yourname">Mastodon</a>
+      </div>
+    </div>
+  </div>
+</header>
 
   <nav>
     <a href="index.html">Home</a>
